@@ -20,9 +20,9 @@ defmodule WebSocket.Mixfile do
   end
 
   defp deps do
-    [{:plug, "~> 1.0.2"},
+    [{:plug, "~> 1.0"},
      {:cowboy, "~> 1.0.2"},
-     {:poison, "~> 1.5.0"},
+     {:poison, "~> 1.5"},
      {:earmark, "~> 0.1.17", only: :docs},
      {:ex_doc, "~> 0.7.3", only: :docs},
      {:excoveralls, "~> 0.3.11", only: :test},
